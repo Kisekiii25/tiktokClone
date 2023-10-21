@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.navs{
+    z-index: 1;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 20px;
+    background-color: white;
+}
+.navbar img{
+    width: 115px;
+    height: 35px;
+}
+.navLink a{
+    text-decoration: none;
+    color: black;
+    font-family: arial;
+    font-weight: 550;
+    font-size: 14px;
+}
+.navBottom{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.47);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 130px 0 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navBottom .button button{
+    border: 1px solid rgba(255, 255, 255, 0.542);
+    background-color: black;
+    color: white;
+    padding: 10px 100px 10px 20px;
+    border-radius: 2px;
+}
+.navBottom2{
+    position: fixed;
+    bottom: 80px;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.navBottom2 div{
+    flex: 1;
+    text-align: center;
+}
+.navBottom2 .downSide{
+    border: 1px solid rgb(151, 151, 151);
+}
+.upSide p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(187, 187, 187);
+    font-size: small;
+}
+.upSide p a{
+    text-decoration: none;
+    color: black;
+}
+.upSide p a:hover{
+    text-decoration: underline;
+}
+.downSide p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.downSide p a{
+    text-decoration: none;
+    color: red;
+}
+.downSide p a:hover{
+    text-decoration: underline;
+}
+.centerContainer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.centerContainer h1{
+    font-weight: bold;
+    margin: 16px auto;
+}
+.centerContainer p{
+    color: rgb(187, 187, 187);
+    font-weight: lighter;
+}
+.txt{
+    margin-bottom: 30px;
+}
+.loginContainer div{
+    padding: 10px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.127);
+    width: 350px;
+    margin: 20px auto;
+    cursor: pointer;
+}
+.centerContainer .loginContainer .fb img{
+    width: 20px;
+    height: 20px;
+}
