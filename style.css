@@ -114,3 +114,9 @@ body{
     width: 20px;
     height: 20px;
 }
+@media (max-width:700px){
+    .navBottom{
+        padding: 0 50px 0 30px;
+    }
+
+}
